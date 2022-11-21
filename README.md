@@ -14,6 +14,10 @@ Real-Time Tables
 {companyname=newjersey, advisoryAlert=NULL, link=https://www.njtransit.com/node/1523434, description=Bus Route Nos. 313, 315, 316*, 317, 408 & 409: Bus Service Changes in Philadelphia – Saturday, June 25, 2022, guid=Philadelphia, servicename=bus, title=BUS 408 - Jun 20, 2022 11:01:56 AM, pubDate=Jun 20, 2022 11:01:56 AM, uuid=309f32c7-e5e5-41d0-b6c6-37ba00aac8d3, ts=1667572441233}
 
 
+{"companyname": "newjersey", "advisoryAlert": "NULL", "link": "https://www.njtransit.com/node/1523434", 
+ "description": "Bus Route Nos. 313, 315, 316*, 317, 408 & 409: Bus Service Changes in Philadelphia – Saturday, June 25, 2022", "guid": "Philadelphia", "servicename":"bus", "title": "BUS 408 - Jun 20, 2022 11:01:56 AM", 
+ "pubDate": "Jun 20, 2022 11:01:56 AM", "uuid":"309f32c7-e5e5-41d0-b6c6-37ba00aac8d3", "ts":"1667572441233"}
+
 ````
 
 #### Convert
