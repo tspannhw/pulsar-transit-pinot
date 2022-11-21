@@ -25,7 +25,7 @@ Real-Time Tables
 ````
 docker exec -it pinot-controller bin/pinot-admin.sh JsonToPinotSchema \
   -timeColumnName ts \
-  -metrics "number_of_episodes,popularity"\
+  -metrics ""\
   -dimensions "" \
   -pinotSchemaName=transit \
   -jsonFile=/data/transit.json \
