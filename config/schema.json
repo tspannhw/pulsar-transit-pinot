@@ -1,0 +1,37 @@
+{
+  "schemaName" : "transit",
+  "dimensionFieldSpecs" : [ {
+    "name" : "companyname",
+    "dataType" : "STRING"
+  }, {
+    "name" : "advisoryAlert",
+    "dataType" : "STRING"
+  }, {
+    "name" : "link",
+    "dataType" : "STRING"
+  }, {
+    "name" : "description",
+    "dataType" : "STRING"
+  }, {
+    "name" : "guid",
+    "dataType" : "STRING"
+  }, {
+    "name" : "servicename",
+    "dataType" : "STRING"
+  }, {
+    "name" : "title",
+    "dataType" : "STRING"
+  }, {
+    "name" : "pubDate",
+    "dataType" : "STRING"
+  }, {
+    "name" : "uuid",
+    "dataType" : "STRING"
+  } ],
+  "dateTimeFieldSpecs" : [ {
+    "name" : "ts",
+    "dataType" : "STRING",
+    "format" : "1:DAYS:EPOCH",
+    "granularity" : "1:DAYS"
+  } ]
+}
