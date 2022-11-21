@@ -19,7 +19,7 @@ Real-Time Tables
 #### Convert
 
 ````
-docker exec -it pinot-controller-json bin/pinot-admin.sh JsonToPinotSchema \
+docker exec -it pinot-controller bin/pinot-admin.sh JsonToPinotSchema \
   -timeColumnName ts \
   -metrics "number_of_episodes,popularity"\
   -dimensions "" \
