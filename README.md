@@ -1,6 +1,11 @@
 # pulsar-transit-pinot
 Apache Pinot - Apache Pulsar - Transit Data
 
+Real-Time Streaming
+to
+Real-Time Messaging Hub
+to
+Real-Time Tables
 
 ````
 
@@ -14,8 +19,7 @@ Apache Pinot - Apache Pulsar - Transit Data
 #### Convert
 
 ````
-
-bin/pinot-admin.sh JsonToPinotSchema \
+docker exec -it pinot-controller-json bin/pinot-admin.sh JsonToPinotSchema \
   -timeColumnName ts \
   -metrics "number_of_episodes,popularity"\
   -dimensions "" \
@@ -30,3 +34,6 @@ bin/pinot-admin.sh JsonToPinotSchema \
 
 * https://dev.startree.ai/docs/pinot/recipes/infer-schema-json-data
 * https://github.com/startreedata/pinot-recipes/blob/main/recipes/json-nested/README.md
+* https://medium.com/apache-pinot-developer-blog/building-a-climate-dashboard-with-apache-pinot-and-superset-d3ee8cb7941d
+
+
