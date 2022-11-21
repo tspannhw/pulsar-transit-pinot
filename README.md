@@ -14,8 +14,14 @@ Apache Pinot - Apache Pulsar - Transit Data
 #### Convert
 
 ````
-JsonToPinotSchema -jsonFile /data/aircraft.json -pinotSchemaName="aircraft" -outputDir="/config"   -dimensions="" -timeColumnName=created_at
 
+bin/pinot-admin.sh JsonToPinotSchema \
+  -timeColumnName ts \
+  -metrics "number_of_episodes,popularity"\
+  -dimensions "" \
+  -pinotSchemaName=transit \
+  -jsonFile=/data/transit.json \
+  -outputDir=/config
 
 ````
 
